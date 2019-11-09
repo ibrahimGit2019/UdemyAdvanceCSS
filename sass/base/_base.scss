@@ -1,5 +1,4 @@
-@import "../abstract/variables";
-
+.btn,
 .btn:link,
 .btn:visited {
   text-transform: uppercase;
@@ -13,6 +12,10 @@
   animation-delay: 1s;
   animation-fill-mode: backwards;
   font-size: 1.6rem;
+  border: none;
+  cursor: pointer;
+  color: $color-white;
+  background-color: $color-dark-green;
 }
 
 .btn:hover {
